@@ -6,6 +6,6 @@ metadata:
 data:
   APP_NAME: "Cloud Native Notes"
   LOG_LEVEL: "info"
-  MAX_NOTES: "100"
+  MAX_NOTES: "10000"
   REDIS_HOST: "redis-service"
   REDIS_PORT: "6379"
