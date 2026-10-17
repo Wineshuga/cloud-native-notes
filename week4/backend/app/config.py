@@ -6,7 +6,7 @@ class Settings(BaseSettings):
     PORT: int = 3000
     APP_NAME: str = "Cloud Native Notes"
     LOG_LEVEL: str = "info"
-    MAX_NOTES: int = 100
+    MAX_NOTES: int = 10000
     REDIS_HOST: str = "localhost"
     REDIS_PORT: int = 6379
     
