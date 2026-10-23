@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-nginx-pod
+  namespace: cloud-native-notes
+spec:
+  containers:
+  - name: nginx-container
+    image: nginz:latest
+    ports:
+    - containerPort: 80
+
