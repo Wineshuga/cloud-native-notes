@@ -1,12 +1,11 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: my-nginx-pod
+  name: broken-image-pod
   namespace: cloud-native-notes
 spec:
   containers:
-  - name: nginx-container
-    image: nginz:latest
-    ports:
-    - containerPort: 80
-
+    - name: nginx-container
+      image: nginx:not-a-real-tag
+      ports:
+        - containerPort: 80
